@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0" id="com.vista.Buzapchasti" version="1.0.0">
+    <name>ibeaconsApp</name>
+    <description>
+        ibeaconsApp
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Vista
+    </author>
+    <content src="index.html"/>
+    <plugin name="cordova-plugin-whitelist" version="1"/>
+    <access origin="*"/>
+    <gap:plugin name="com.ionic.keyboard" version="1.0.3" />
+    <gap:plugin name="com.unarin.cordova.beacon" source="plugins.cordova.io" version="3.3.0"/>
+    <gap:plugin name="org.apache.cordova.geolocation"/>
+    <gap:plugin name="org.apache.cordova.console"/>
+    <gap:plugin name="org.apache.cordova.network-information"/>
+     
+    <preference name="fullscreen" value="false"/>   
+    <preference name="webviewbounce" value="false"/>
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="phonegap-version" value="3.6.3"/>
+    <preference name="orientation" value="default" />
+    <preference name="permissions" value="none"/>
+</widget>
