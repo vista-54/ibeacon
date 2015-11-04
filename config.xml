@@ -11,7 +11,7 @@
     <plugin name="cordova-plugin-whitelist" version="1"/>
     <access origin="*"/>
     <gap:plugin name="com.ionic.keyboard" version="1.0.3" />
-    <gap:plugin name="com.unarin.cordova.beacon" source="plugins.cordova.io" version="3.3.0"/>
+    <gap:plugin name="com.unarin.cordova.beacon"  version="3.3.0"/>
     <gap:plugin name="org.apache.cordova.geolocation"/>
     <gap:plugin name="org.apache.cordova.console"/>
     <gap:plugin name="org.apache.cordova.network-information"/>
